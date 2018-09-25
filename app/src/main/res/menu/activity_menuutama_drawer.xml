@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_semua"
+            android:icon="@drawable/home2"
+            android:title="Home"
+            >
+        </item>
+
+        <item
+            android:id="@+id/nav_penanda"
+            android:icon="@drawable/ic_bookmark"
+            android:title="Penanda" />
+
+    </group>
+
+    <item android:title="NETWOK">
+        <menu>
+            <item
+                android:id="@+id/nav_bagikan"
+                android:icon="@drawable/ic_share"
+                android:title="Bagikan" />
+        </menu>
+    </item>
+    <item android:title="LAINNYA">
+        <menu>
+            <item
+                android:id="@+id/nav_bantuan"
+                android:icon="@drawable/ic_help"
+                android:title="Bantuan" />
+            <item
+                android:id="@+id/nav_tentang"
+                android:icon="@drawable/ic_info"
+                android:title="Tentang" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/great"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_semua"
+                android:icon="@drawable/great"
+                android:orderInCategory="100"
+                android:title="semua"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_hardware"
+                android:icon="@drawable/hardware"
+                android:orderInCategory="100"
+                android:title="Hardware"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_jaringan"
+                android:icon="@drawable/jaringan"
+                android:orderInCategory="100"
+                android:title="Jaringan"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_software"
+                android:icon="@drawable/software"
+                android:orderInCategory="100"
+                android:title="Software"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_pemrograman"
+                android:icon="@drawable/program"
+                android:orderInCategory="100"
+                android:title="Pemrograman"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
